@@ -1,0 +1,81 @@
+@media screen and (max-width: 1024px){
+    /* верхнее меню */
+    header .phone {
+        font-size: 1.2em;
+    }
+    header .phone button {
+        padding: 8px 1em;
+    }
+    /* header image */
+    .main_image {
+        margin-top: 5em;
+        min-height: 25em;
+    }
+    .block_h2{
+        right: 5%;
+    }
+    /* наши  услуги */
+    .uslugi_inner_text p {
+        font-size: 0.9em;
+    }
+    /* как мы работаем */
+    .inner_work_block span {
+        padding: 1.2em 0.5em;
+        height: 4em;
+        width: 4em;
+    }
+    /* карта */
+    .adress_block{
+        left: 4em;
+    }
+}
+@media screen and (max-width: 768px){
+    /* верхнее меню */
+    header .phone {
+        font-size: 1.5em;
+    }
+    .wrap_phone{
+        display: flex;
+        justify-content: center;
+    }
+    /* header image */
+    .block_h{
+        left: 25%;
+    }
+    .block_h h1{
+        font-size: 3.5em;
+        text-shadow: -1px 1px 1px #ffffff;
+    }
+    .inner_block_img_1 {
+        border-right: none;
+        border-bottom: 1px solid #2687cc;
+    }
+    /* наши  услуги */
+    .uslugi_inner_text {
+        padding-top: 0.5em;
+        align-items: center;
+    }
+    .uslugi_block h4 {
+        font-size: 2.5em;
+    }
+    .uslugi_inner_text p {
+        font-size: 1.5em;
+    }
+    /* как мы работаем */
+    .inner_work_block span {
+        padding: 1.2em 0.3em;
+        height: 4em;
+        min-width: 4em;
+        text-align: center;
+    }
+    /* карта */
+    .adress_block{
+        left: 3em;
+        top: 10.5em;
+        font-size: 1.5em;
+    }
+    .adress_block:before {
+        top: 50px;
+    }
+
+}

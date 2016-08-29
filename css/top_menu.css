@@ -1,0 +1,38 @@
+    /* верхнее меню*/
+
+header .logo_img{
+    padding: 3px 30px;
+}
+header .name_firm{
+    font-size: 2em;
+    font-weight: 900;
+    text-decoration: underline;
+}
+header .name_firm span{
+    color: #1442e8;
+}
+header .dropdown-menu{
+    text-transform: uppercase;
+}
+header .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: #262626;
+    text-decoration: none;
+    background-color: #2687cc;
+    font-weight: bold;
+    text-shadow: 1px 0px 4px #FFFFFF;
+}
+header .phone{
+    line-height: 50px;
+    font-family: 'RobotoBold';
+    font-size: 1.6em;
+}
+header .glyphicon-phone-alt:before {
+    padding-right: 15px;
+}
+header .phone{
+    padding-right: 20px;
+}
+header .phone button{
+    padding: 8px 35px;
+    text-transform: uppercase;
+}

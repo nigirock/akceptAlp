@@ -1,0 +1,47 @@
+/* как мы работаем*/
+.work{
+    padding-bottom: 2em;
+}
+.work h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.work img{
+    max-height: 8em;
+    min-height: 8em;
+    max-width: 8em;
+    min-width: 8em;
+    background-size: cover;
+}
+.main_flex_cont{
+    display: flex;
+    justify-content: center;
+}
+.inner_work_block{
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    border: 1px solid #2687cc;
+    border-radius: 1em;
+}
+.inner_work_block span{
+    color: #2687cc;
+    font-size: 2em;
+    border: 1px solid #2687cc;
+    border-radius: 50%;
+    padding: 1em 0.4em;
+    font-weight: bold;
+    margin-right: 1em;
+}
+.span_work_block{
+    display: flex;
+}
+.inner_work_block h4{
+    padding-left: 2em;
+}
+.work .glyphicon-arrow-down:before {
+    margin: auto;
+    font-size: 2em;
+    color: #2687cc;
+}

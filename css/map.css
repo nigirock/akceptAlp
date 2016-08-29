@@ -1,0 +1,45 @@
+/* карта*/
+.map{
+    border-top: 1px solid #1442e8;
+}
+.map h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.map_img{
+    background: url("../img/map.png") no-repeat center;
+    background-size: cover;
+    min-height: 30em;
+}
+.adress_block{
+    font-family: RobotoBold sans-serif;
+    position: absolute;
+    border: 1px solid #2687cc;
+    left: 10em;
+    top: 40%;
+    font-size: 2em;
+    padding: 1em;
+    background-color: rgba(172,172,172,0.5);
+}
+.adress_block:before{
+    top: 75px;
+    right: -60px;
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0px;
+    border-top: 30px solid transparent;
+    border-left: 60px solid #2687cc;
+    border-bottom: 30px solid transparent;
+}
+.adress_block span{
+    padding-right: 1em;
+}
+.adress_block{
+    color: #1442E8;
+    font-weight: bold;
+}
+.adress_block div:first-child{
+    text-transform: uppercase;
+}

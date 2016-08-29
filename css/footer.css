@@ -1,0 +1,43 @@
+/* footer */
+footer{
+    border-top: 2px solid #2687cc;
+}
+.footer_brand{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 2px solid #2687cc;
+    padding: 2em;
+}
+footer .name_firm{
+    color: #777;
+}
+footer .name_firm span{
+    color: #1442E8;
+}
+.wrap_brand{
+    display: flex;
+    align-items: center;
+}
+.footer_phone{
+    font-family: RobotoBold sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+.footer_phone span{
+    padding-right: 1em;
+}
+.footer_brand button{
+    padding: 8px 35px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: -1px 1px 1px #000;
+}
+.my_block{
+    text-align: center;
+    color: #696969;
+    font-family: RobotoBold;
+}
+.my_block span{
+    text-decoration: underline;
+}

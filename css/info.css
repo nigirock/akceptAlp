@@ -1,0 +1,24 @@
+.info{
+    margin-top: 4em;
+}
+.info h1{
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid #00b3ee;
+    padding-bottom: 0.6em;
+}
+.info h3{
+    text-align: center;
+    font-weight: bold;
+}
+.info_text{
+    border: 1px solid #00b3ee;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+.info_text h4{
+    font-weight: bold;
+    color: #337ab7;
+    text-align: center;
+    font-size: 1.6em;
+}

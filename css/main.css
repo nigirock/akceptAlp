@@ -1,0 +1,24 @@
+@import "fonts.css";
+@import "top_menu.css";
+@import "header_img.css";
+@import "uslugi.css";
+@import "preimuscestva.css";
+@import "consult.css";
+@import "work.css";
+@import "map.css";
+@import "footer.css";
+@import "media.css";
+@import "info.css";
+
+body{
+    font-family: 'RalewayRegular', sans-serif;
+}
+.orange{
+    color: #2687cc;
+}
+.name_firm{
+    color: #1442e8;
+}
+ul{
+    list-style-type: none;
+}

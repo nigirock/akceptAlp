@@ -1,0 +1,31 @@
+.preimuscestva{
+    padding-bottom: 50px;
+}
+.preimuscestva h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+ }
+.preimuscestva span{
+    padding: 0.3em 0.8em;
+    border: 2px solid #2687cc;
+    border-radius: 50% 50%;
+    background-color: #2687cc;
+    color: #fff;
+    font-size: 2em;
+    margin-right: 0.8em;
+}
+.pre_flex{
+    display: flex;
+    align-items: center;
+    min-height: 7em;
+}
+.pre_flex h4{
+    font-weight: bold;
+}
+.pre_main_block{
+    border-right: 1px solid #1442e8;
+ }
+.pre_main_block:last-child{
+    border: none;
+}

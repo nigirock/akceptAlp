@@ -1,0 +1,20 @@
+.price{
+    font-family: RobotoBold sans-serif;
+    font-size: 1.5em;
+    margin-top: 60px;
+}
+.no_wrap{
+    white-space: nowrap;
+}
+.table_block{
+    border-top: 2px solid #1442E8;
+}
+.price h2{
+    text-align: center;
+}
+.name_table{
+    background-color: #337ab7;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2em;
+}

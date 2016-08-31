@@ -9,6 +9,9 @@
 @import "footer.css";
 @import "media.css";
 @import "info.css";
+@import "fotorama.css";
+@import "animate.min.css";
+@import "price.css";
 
 body{
     font-family: 'RalewayRegular', sans-serif;

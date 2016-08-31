@@ -10,7 +10,7 @@
     }
     .block_h{
         position: absolute;
-        bottom: 5%;
+        bottom: 2%;
         color: #2f2b2b;
         left: 50%;
         margin-left: -10em;
@@ -48,6 +48,12 @@
     }
     .block_h2 ul{
         padding-left: 10px;
+    }
+    .inner_image{
+        animation-timing-function: linear;
+        animation-duration: 8s;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
     }
     .inner_block_img{
         margin-top: 15px;

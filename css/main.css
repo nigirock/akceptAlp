@@ -1,4 +1,5 @@
 @import "fonts.css";
+@import "font-awesome.min.css";
 @import "top_menu.css";
 @import "header_img.css";
 @import "uslugi.css";
@@ -7,11 +8,12 @@
 @import "work.css";
 @import "map.css";
 @import "footer.css";
-@import "media.css";
 @import "info.css";
 @import "fotorama.css";
 @import "animate.min.css";
 @import "price.css";
+@import "magnific-popup.css";
+@import "media.css";
 
 body{
     font-family: 'RalewayRegular', sans-serif;
@@ -24,4 +26,46 @@ body{
 }
 ul{
     list-style-type: none;
+}
+.hidd{
+    display: none;
+}
+#form2{
+    max-width: 320px;
+    background-color: #fff;
+    padding: 40px;
+    margin: auto;
+    position: relative;
+    border: 2px solid #00b3ee;
+}
+#form2 h5{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+}
+#formWork{
+    max-width: 35em;
+    background-color: #fff;
+    padding: 40px;
+    margin: auto;
+    position: relative;
+    border: 2px solid #00b3ee;
+}
+#formWork h5{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+}
+#formWork .h_text input{
+    height: 10em;
+}
+#form2, #formWork button{
+    padding: 8px 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.popup{
+    padding: 8px 35px;
+    text-transform: uppercase;
+    font-weight: bold;
 }

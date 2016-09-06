@@ -36,3 +36,17 @@ header .phone a{
     padding: 8px 35px;
     text-transform: uppercase;
 }
+.wrap_phone ul a{
+    display: inline-block;
+    padding: 0.3em;
+    border: 3px solid #1442E8;
+    border-radius: 5px;
+    width: 3em;
+}
+.wrap_phone .fa{
+    font-size: 2em;
+}
+    .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+        color: #00b3ee;
+        background-color: transparent;
+    }

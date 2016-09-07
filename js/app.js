@@ -12,6 +12,11 @@ $(document).ready(function () {
             offset: 110
         });
     }
+    if(screenWidth <= 768){
+        $("a[rel='m_PageScroll2id']").mPageScroll2id({
+            offset: 150
+        });
+    }
     //Аякс отправка форм
     //Документация: http://api.jquery.com/jquery.ajax/
     $(".forms").submit(function() {
@@ -26,7 +31,7 @@ $(document).ready(function () {
             setTimeout(function() {
                 $.magnificPopup.close();
                 $(".forms").trigger("reset");
-            }, 1000);
+            }, 500);
         });
         return false;
     });

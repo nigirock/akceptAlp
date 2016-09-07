@@ -14,7 +14,7 @@
                             <!-- верхнее меню -->
  <header id="header">
      <div class="bs-example">
-         <nav class="navbar navbar-default navbar-static navbar-fixed-top" id="navbar-example">
+         <nav class="navbar navbar-default navbar-static navbar-fixed-top col-lg-12" id="navbar-example">
              <div class="container-fluid">
                  <div class="navbar-header">
                      <button class="collapsed navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-example-js-navbar-collapse">
@@ -26,7 +26,7 @@
                         <img src="img/logo.png" alt="logo" class="navbar-brand img-responsive logo_img">
                             <a href="#header" rel="m_PageScroll2id" class="navbar-brand name_firm">АКЦЕПТ <span>АЛЬП</span></a>
                  </div>
-                 <div class="collapse navbar-collapse bs-example-js-navbar-collapse col-md-12">
+                 <div class="collapse navbar-collapse bs-example-js-navbar-collapse">
                      <ul class="nav navbar-nav col-md-3">
                          <li class="dropdown">
                              <a href="#" class="dropdown-toggle" id="drop1" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> ГЛАВНАЯ
@@ -90,10 +90,10 @@
                              <a href="price.html" class="dropdown-toggle" id="drop3"  role="button" aria-haspopup="true" aria-expanded="false">ЦЕНЫ</a>
                          </li>
                      </ul>
-                     <ul class="phone nav navbar-nav navbar-right col-md-2">
+                     <ul class="phone nav navbar-nav navbar-right col-md-3">
                          <a href="#consult" rel="m_PageScroll2id" class="btn btn-primary">заказать звонок</a>
                      </ul>
-                     <div class="col-sm-12 col-md-6 wrap_phone">
+                     <div class="col-sm-12 col-md-12 wrap_phone">
                          <ul class="phone nav navbar-nav navbar-right">
                              <li><span class="glyphicon glyphicon-phone-alt"></span>+375-29-1911956
                                  <a href="https://vk.com/aalp_by" target="_blank" class="btn"><i class="fa fa-vk" aria-hidden="true"></i></a>
@@ -415,7 +415,7 @@
     <h4 class="col-md-12">Наша команда специалистов по промышленному альпинизму в МИНСКЕ является образцовой, так как компания работает в этой сфере на протяжении нескольких лет. Наш опыт колоссален, благодаря чему мы выполняем высотные работы в МИНСКЕ на профессиональном уровне</h4>
     <h3 class="col-md-12">ОСТАВЛЯЙТЕ ЗАЯВКУ И НАШ СПЕЦИАЛИСТ В БЛИЖАЙШЕЕ ВРЕМЯ СВЯЖЕТЬСЯ С ВАМИ.</h3>
     <div class="wrap_form col-md-12">
-        <form id="form1" class="form-horizontal col-md-4 forms" role="form">
+        <form id="form1" class="form-horizontal col-md-4 forms">
             <div class="present">
                 <h4>ЗАКАЗАТЬ БЕСПЛАТНЫЙ ВЫЕЗД СПЕЦИАЛИСТА</h4>
                 <h4><span class="glyphicon glyphicon-gift"></span>В подарок бесплатный экспресс-аудит объекта в виде фотоотчета</h4>
@@ -423,13 +423,13 @@
             <div class="form-group">
                 <label for="inputName" class="control-label">Имя</label>
                 <div class="">
-                    <input type="text" class="form-control" id="inputName" placeholder="Ваше имя" name="name">
+                    <input type="text" class="form-control" id="inputName" placeholder="Ваше имя" name="name" required="required">
                 </div>
             </div>
             <div class="form-group">
                 <label for="inputEmail" class="control-label">E-mail</label>
                 <div class="">
-                    <input type="email" class="form-control" id="inputEmail" placeholder="Ваш E-mail" name="email">
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Ваш E-mail" name="email" required="required">
                 </div>
             </div>
             <div class="form-group">
@@ -440,7 +440,7 @@
             </div>
             <div class="form-group">
                 <div class="form_btn">
-                    <button type="submit" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">заказать</button>
+                    <button type="submit" class="btn btn-primary"  data-target=".bs-example-modal-sm">заказать</button>
                 </div>
             </div>
         </form>
@@ -521,7 +521,7 @@
             <span class="glyphicon glyphicon-phone-alt">
             </span>+375-29-1911956
         </div>
-            <a href="#consult" rel="m_PageScroll2id" class="btn btn-primary popup">заказать звонок</a>
+            <a href="#consult" rel="m_PageScroll2id" class="btn btn-primary phone">заказать звонок</a>
     </div>
     <div class="my_block col-sm-12">
         <h6>разработка сайта Виринский Александр <span>nigirock124@gmail.com</span>. Минск 2016г. </h6>
@@ -544,7 +544,7 @@
                                   <div class="form-group">
                                       <textarea name="text_work" rows="5" class="form-control" placeholder="Расскажите о себе" title="Текст сообщения" maxlength="1000"></textarea>
                                   </div>
-                                  <button class="btn btn-primary center-block" type="submit" data-toggle="modal" data-target=".bs-example-modal-sm">отправить</button>
+                                  <button class="btn btn-primary center-block" type="submit"  data-target=".bs-example-modal-sm">отправить</button>
                               </form>
                           </div>
                             <!-- модальное окно -->

@@ -21,7 +21,7 @@ header .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
     font-weight: bold;
     text-shadow: 1px 0px 4px #FFFFFF;
 }
-header .phone{
+.phone{
     line-height: 50px;
     font-family: 'RobotoBold';
     font-size: 1.6em;
@@ -29,10 +29,7 @@ header .phone{
 header .glyphicon-phone-alt:before {
     padding-right: 15px;
 }
-header .phone{
-    padding-right: 20px;
-}
-header .phone a{
+ .phone a{
     padding: 8px 35px;
     text-transform: uppercase;
 }
@@ -50,3 +47,4 @@ header .phone a{
         color: #00b3ee;
         background-color: transparent;
     }
+

@@ -1,3 +1,51 @@
+@media screen and (max-width: 1920px){
+    .top_menu_block{
+        width: 79%;
+    }
+    .block_h {
+        bottom: 15%;
+    }
+    .block_h2{
+        bottom: 20%;
+    }
+    .adress_block {
+        left: 20em;
+    }
+    .ul_menu{
+        padding-right: 0;
+    }
+}
+@media screen and (max-width: 1440px){
+    .main_image {
+        margin-top: 9em;
+    }
+    header .navbar {
+        padding: 2em 0;
+    }
+    .top_menu_block{
+        width: auto;
+    }
+    .adress_block {
+        left: 11em;
+    }
+    .block_h {
+        bottom: 2%;
+    }
+    .block_h2{
+        bottom: 10%;
+    }
+    .price {
+        margin-top: 6em;
+    }
+}
+@media screen and (max-width: 1366px){
+    header .name_firm {
+        font-size: 1.5em;
+    }
+    header .logo_img {
+        padding: 3px 2px 3px 10px;
+    }
+}
 @media screen and (max-width: 1280px){
     .block_h{
         bottom: -1%;
@@ -5,15 +53,67 @@
     .block_h h1{
         margin-top: 0;
     }
+    .block_h2{
+        bottom: 5%;
+    }
+    .phone a {
+        padding: 8px 12px;
+    }
+    header .name_firm {
+        font-size: 1.6em;
+    }
+    header .logo_img {
+        padding: 3px 10px;
+    }
+    .wrap_phone .fa {
+        font-size: 1.6em;
+    }
+    .phone {
+        font-size: 1.3em;
+    }
+    .wrap_phone{
+        width: 52%;
+    }
+    .ul_menu {
+        width: 25%;
+    }
+    .price {
+        margin-top: 8em;
+    }
+}
+@media screen and (max-width: 1200px){
+    .ul_menu {
+        width: 22%;
+    }
+    .phone_zakaz{
+        width: 25%;
+    }
+    .wrap_phone {
+        width: 100%;
+        display: flex;
+    }
+    .phone{
+        margin: auto;
+    }
+    .main_image {
+        margin-top: 13em;
+    }
+
 }
 @media screen and (max-width: 1024px){
-    /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ */
+    .ul_menu {
+        width: 23%;
+    }
+    .phone_zakaz {
+        width: 20%;
+    }
     .navbar{
         padding: 1em 0;
     }
     .wrap_phone{
         display: flex;
         justify-content: center;
+        width: 100%;
     }
     /* header image */
 
@@ -51,9 +151,15 @@
     .adress_block{
         left: 4em;
     }
+
 }
 @media screen and (max-width: 992px){
-    /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ */
+    .ul_menu {
+        width: 29%;
+    }
+    .phone_zakaz {
+        width: 25%;
+    }
     header .phone {
         font-size: 1.5em;
     }
@@ -72,7 +178,7 @@
         display: flex;
         justify-content: center;
     }
-    /* пїЅпїЅпїЅпїЅпїЅ */
+    /* контакты */
     .adress_block{
         left: 3em;
     }
@@ -81,7 +187,7 @@
     }
 }
 @media screen and (max-width: 768px){
-    /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ */
+    /* меню */
     header .phone {
         font-size: 1.5em;
     }
@@ -103,9 +209,10 @@
     }
     .inner_block_img_1 {
         border-right: none;
-        border-bottom: 1px solid #2687cc;
+        border-bottom: 1px solid #00b3ee;
     }
-    /* пїЅпїЅпїЅпїЅ  пїЅпїЅпїЅпїЅпїЅпїЅ */
+
+    /* наши услуги */
     .uslugi_inner_text {
         padding-top: 0.5em;
         align-items: center;
@@ -116,17 +223,17 @@
     .uslugi_inner_text p {
         font-size: 1.1em;
     }
-    /* пїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
+    /* как мы работаем */
     .inner_work_block span {
         padding: 1.2em 0.3em;
         height: 4em;
         min-width: 4em;
         text-align: center;
     }
-    /* пїЅпїЅпїЅпїЅпїЅ */
+    /* контакты */
     .adress_block{
-        left: 3em;
-        top: 10.5em;
+        left: 2em;
+        top: 7.5em;
         font-size: 1.5em;
     }
     .adress_block:before {
@@ -135,6 +242,7 @@
     .footer_phone{
         font-size: 1.2em;
     }
+
 }
 @media screen and (max-width: 425px){
     header .phone {

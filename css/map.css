@@ -1,6 +1,7 @@
 /* карта*/
 .map{
-    border-top: 1px solid #1442e8;
+    border-top: 1px solid #00b3ee;
+    margin-top: 2em;
 }
 .map h2{
     text-align: center;
@@ -11,11 +12,12 @@
     background: url("../img/map.png") no-repeat center;
     background-size: cover;
     min-height: 30em;
+    position: relative;
 }
 .adress_block{
     font-family: RobotoBold sans-serif;
     position: absolute;
-    border: 1px solid #2687cc;
+    border: 1px solid #00b3ee;
     left: 10em;
     top: 40%;
     font-size: 2em;
@@ -30,14 +32,14 @@
     width: 0;
     height: 0px;
     border-top: 30px solid transparent;
-    border-left: 60px solid #2687cc;
+    border-left: 60px solid #00b3ee;
     border-bottom: 30px solid transparent;
 }
 .adress_block span{
     padding-right: 1em;
 }
 .adress_block{
-    color: #1442E8;
+    color: #00b3ee;
     font-weight: bold;
 }
 .adress_block div:first-child{

@@ -9,7 +9,7 @@ header .name_firm{
     text-decoration: underline;
 }
 header .name_firm span{
-    color: #1442e8;
+    color: #00b3ee;
 }
 header .dropdown-menu{
     text-transform: uppercase;
@@ -17,7 +17,7 @@ header .dropdown-menu{
 header .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
     color: #262626;
     text-decoration: none;
-    background-color: #2687cc;
+    background-color: #00b3ee;
     font-weight: bold;
     text-shadow: 1px 0px 4px #FFFFFF;
 }
@@ -36,7 +36,7 @@ header .glyphicon-phone-alt:before {
 .wrap_phone ul a{
     display: inline-block;
     padding: 0.3em;
-    border: 3px solid #1442E8;
+    border: 3px solid #00b3ee;
     border-radius: 5px;
     width: 3em;
 }

@@ -1,19 +1,19 @@
 /* footer */
 footer{
-    border-top: 2px solid #2687cc;
+    border-top: 2px solid #00b3ee;
 }
 .footer_brand{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border-bottom: 2px solid #2687cc;
+    border-bottom: 2px solid #00b3ee;
     padding: 2em;
 }
 footer .name_firm{
     color: #777;
 }
 footer .name_firm span{
-    color: #1442E8;
+    color: #00b3ee;
 }
 .wrap_brand{
     display: flex;

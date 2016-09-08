@@ -8,9 +8,9 @@
  }
 .preimuscestva span{
     padding: 0.3em 0.8em;
-    border: 2px solid #2687cc;
+    border: 2px solid #00b3ee;
     border-radius: 50% 50%;
-    background-color: #2687cc;
+    background-color: #00b3ee;
     color: #fff;
     font-size: 2em;
     margin-right: 0.8em;
@@ -24,7 +24,7 @@
     font-weight: bold;
 }
 .pre_main_block{
-    border-right: 1px solid #1442e8;
+    border-right: 1px solid #00b3ee;
  }
 .pre_main_block:last-child{
     border: none;

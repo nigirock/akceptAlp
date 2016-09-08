@@ -22,13 +22,13 @@
     display: flex;
     align-items: center;
     padding: 1em;
-    border: 1px solid #2687cc;
+    border: 1px solid #00b3ee;
     border-radius: 1em;
 }
 .inner_work_block span{
-    color: #2687cc;
+    color: #00b3ee;
     font-size: 2em;
-    border: 1px solid #2687cc;
+    border: 1px solid #00b3ee;
     border-radius: 50%;
     padding: 1em 0.4em;
     font-weight: bold;
@@ -43,5 +43,5 @@
 .work .glyphicon-arrow-down:before {
     margin: auto;
     font-size: 2em;
-    color: #2687cc;
+    color: #00b3ee;
 }

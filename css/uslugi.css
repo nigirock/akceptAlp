@@ -1,5 +1,5 @@
 .uslugi{
-    border-top: 2px solid #2687cc;
+    border-top: 2px solid #00b3ee;
     margin-top: 25px;
 }
 .uslugi h2{
@@ -10,7 +10,7 @@
 .uslugi_block{
     position: relative;
     min-height: 400px;
-    border: 1px solid #2687cc;
+    border: 1px solid #00b3ee;
     display: flex;
     justify-content: center;
 }
@@ -86,7 +86,7 @@
     font-size: 1.1em;
 }
 .glyphicon-ok:before {
-    color: #2687cc;
+    color: #00b3ee;
     border: 2px solid;
     border-radius: 50%;
     padding: 3px;

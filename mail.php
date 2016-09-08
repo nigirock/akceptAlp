@@ -34,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <h3>О себе: $text_work</h3>";
     }
 
-    $to = "nigirock124@gmail.com"; /*Укажите ваш адрес электронной почты*/
+    $to = "1911956@mail.ru"; /*Укажите ваш адрес электронной почты*/
     $headers = "Content-type: text/html; charset = utf-8";
     $subject = "Высотные работы";
     $send = mail ($to, $subject, $message, $headers);

@@ -7,13 +7,13 @@
     white-space: nowrap;
 }
 .table_block{
-    border-top: 2px solid #1442E8;
+    border-top: 2px solid #00b3ee;
 }
 .price h2{
     text-align: center;
 }
 .name_table{
-    background-color: #337ab7;
+    background-color: #00b3ee;
     color: #fff;
     text-align: center;
     font-size: 1.2em;

@@ -1,6 +1,6 @@
     /* консультация */
 .consult{
-    border-top:2px solid #2687cc;
+    border-top:2px solid #00b3ee;
     background: url("../img/fon_minsk.jpg") no-repeat center;
     background-size: cover;
     min-height: 40em;
@@ -40,17 +40,17 @@
     justify-content: center;
 }
 .consult form{
-    border: 2px solid #2687cc;
+    border: 2px solid #00b3ee;
     padding: 2em;
     border-radius: 1em;
 }
 .consult .glyphicon-gift:before {
-    color: #2687cc;
+    color: #00b3ee;
     font-size: 1.5em;
     padding-right: 0.2em;
 }
 .present h4:first-child{
-    border-bottom: 1px solid #2687cc;
+    border-bottom: 1px solid #00b3ee;
     padding-bottom: 1em;
 }
 .wrap_form button{
